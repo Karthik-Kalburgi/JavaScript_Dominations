@@ -18,6 +18,7 @@ import FormExerciseMain from './Components/FormsExercise/FormExerciseMain'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import DynamicRoutingMain from './Components/Dynamic Routing/DynamicRoutingMain'
 import Integrateapi from './Components/IntegrateAPI/Integrateapi'
+import ContextApi from './Components/ContextAPI/ContextApi'
 
 function App() {
 
@@ -38,7 +39,8 @@ function App() {
     {/* <FormsMain /> */}
     {/* <FormExerciseMain /> */}
     {/* <DynamicRoutingMain /> */}
-    <Integrateapi/>
+    {/* <Integrateapi/> */}
+    <ContextApi />
 
   </>
   )
