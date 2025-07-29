@@ -67,4 +67,14 @@ var g = (a)=>{
 }
 g(12)
 
-Array is an linear ds which stores multiple values in a continous manner
+Array is an linear ds which stores multiple values in a continous manner.
+
+In Strings push does not work on strings since string is not array ,In strings push,pop der is no function coz its not array.
+
+
+Strings - Group of char,collection of char, sequence of char it behaves like array coz we can peform indexing,
+          Strings are immutable in nature.
+
+Slice is used for both -ve , +ve indexes where as substring is used only for +ve.
+
+CharcodeAt - used for alphabets ASCHII values A-65 B-66
