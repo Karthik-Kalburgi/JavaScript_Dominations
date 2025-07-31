@@ -27,3 +27,17 @@
 //   return vla >3
 // })
 // console.log(ans);
+
+
+// let arr = [1,2,3,4,5];
+// let ans = arr.find(function(val){
+//   if(val ===2){
+//     return val;
+//   }
+// })
+// console.log(ans);
+
+// function abcd(){
+//   return 122;
+// }
+// let ans = console.log(abcd());
