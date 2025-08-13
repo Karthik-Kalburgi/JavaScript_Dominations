@@ -1,6 +1,6 @@
 // let arr = new Array(5);
 
-// arr[0]= Number(prompt("Enter the number"));
+// arr[0]= Number(("Enter the number"));
 // console.log(arr);
 
 // for(let i=0;i<arr.length;i++){
@@ -25,7 +25,7 @@
 
 
 //Max
-//let us consider 0th elem is biggest
+// let us consider 0th elem is biggest
 // let arr = [10,5,63,98,45,25,98,74,5,23,26,5,6,106];
 // let max= arr[0];
 // for(let i=1;i<arr.length;i++){
@@ -67,20 +67,20 @@
 // console.log(arr);
 
 //move negative on left and pos on right
-let arr= [-1,1,3,4,5,6,-7,9,-5,1,12,52,-6,-9,-4,52];
-let i =0;
-let j=0;
-while(i<arr.length){
-  if(arr[i]<0){
-    let temp = arr[i];
-    arr[i] = arr[j];
-    arr[j] = temp;
-    j++;
+// let arr= [-1,1,3,4,5,6,-7,9,-5,1,12,52,-6,-9,-4,52];
+// let i =0;
+// let j=0;
+// while(i<arr.length){
+//   if(arr[i]<0){
+//     let temp = arr[i];
+//     arr[i] = arr[j];
+//     arr[j] = temp;
+//     j++;
 
-  }
-  i++;
-}
-console.log(arr);
+//   }
+//   i++;
+// }
+// console.log(arr);
 
 
 
